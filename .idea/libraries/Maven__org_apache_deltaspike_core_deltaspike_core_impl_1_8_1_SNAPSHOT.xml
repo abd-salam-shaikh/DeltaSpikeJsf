@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.deltaspike.core:deltaspike-core-impl:1.8.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/deltaspike/core/deltaspike-core-impl/1.8.1-SNAPSHOT/deltaspike-core-impl-1.8.1-20170922.134616-141.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/deltaspike/core/deltaspike-core-impl/1.8.1-SNAPSHOT/deltaspike-core-impl-1.8.1-20170922.134616-141-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/deltaspike/core/deltaspike-core-impl/1.8.1-SNAPSHOT/deltaspike-core-impl-1.8.1-20170922.134616-141-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

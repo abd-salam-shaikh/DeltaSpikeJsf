@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="deltaspike-jsf-example:war exploded">
+    <output-path>$PROJECT_DIR$/target/ds</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="deltaspike-jsf-example" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/deltaspike/core/deltaspike-core-api/1.8.1-SNAPSHOT/deltaspike-core-api-1.8.1-20170922.134520-141.jar" output-file-name="deltaspike-core-api-1.8.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/deltaspike/core/deltaspike-core-impl/1.8.1-SNAPSHOT/deltaspike-core-impl-1.8.1-20170922.134616-141.jar" output-file-name="deltaspike-core-impl-1.8.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/deltaspike/modules/deltaspike-jsf-module-api/1.8.1-SNAPSHOT/deltaspike-jsf-module-api-1.8.1-20170922.135250-141.jar" output-file-name="deltaspike-jsf-module-api-1.8.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/deltaspike/modules/deltaspike-jsf-module-impl/1.8.1-SNAPSHOT/deltaspike-jsf-module-impl-1.8.1-20170922.135322-141.jar" output-file-name="deltaspike-jsf-module-impl-1.8.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/deltaspike/modules/deltaspike-security-module-api/1.8.1-SNAPSHOT/deltaspike-security-module-api-1.8.1-20170922.135011-141.jar" output-file-name="deltaspike-security-module-api-1.8.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/deltaspike/modules/deltaspike-security-module-impl/1.8.1-SNAPSHOT/deltaspike-security-module-impl-1.8.1-20170922.135034-141.jar" output-file-name="deltaspike-security-module-impl-1.8.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/deltaspike/modules/deltaspike-proxy-module-api/1.8.1-SNAPSHOT/deltaspike-proxy-module-api-1.8.1-20170922.134920-141.jar" output-file-name="deltaspike-proxy-module-api-1.8.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/deltaspike/modules/deltaspike-proxy-module-impl-asm5/1.8.1-SNAPSHOT/deltaspike-proxy-module-impl-asm5-1.8.1-20170922.134942-141.jar" output-file-name="deltaspike-proxy-module-impl-asm5-1.8.1-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jcdi_1.0_spec:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-atinject_1.0_spec:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-interceptor_1.1_spec:1.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/ds/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="deltaspike-jsf-example/web/Web" />
+    </root>
+  </artifact>
+</component>
